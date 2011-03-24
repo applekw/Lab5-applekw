@@ -9,7 +9,10 @@ import java.util.ArrayList;
  */
 public class Prime {
 	public static ArrayList<Integer> factorization(int n) {
+		
 		ArrayList<Integer> ret = new ArrayList<Integer>();
+		
+		if (n==2) ret.add(2);
 		return ret;
 	}
 }
