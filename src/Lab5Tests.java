@@ -17,4 +17,9 @@ public class Lab5Tests {
 	public void testOne(){
 		assertEquals(new ArrayList<Integer>(), Prime.factorization(1));
 	}
+	
+	@Test
+	public void testTwo(){
+		assertEquals(new ArrayList<Integer>(2), Prime.factorization(2));
+	}
 }
