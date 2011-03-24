@@ -23,6 +23,12 @@ public class Lab5Tests {
 		assertEquals(list(2), Prime.factorization(2));
 	}
 	
+	@Test
+	public void testThree(){
+		assertEquals(list(3), Prime.factorization(3));
+	}
+	
+	
 	
 	public ArrayList<Integer> list(int...ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
