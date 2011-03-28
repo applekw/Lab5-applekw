@@ -30,6 +30,9 @@ public class Prime {
 		if (n>2) {
 			ret.add(2);
 		}
+		if (n>3){
+			ret.add(3);
+		}
 		return ret;
 	}
 }
