@@ -43,6 +43,10 @@ public class Lab5Tests {
 		assertEquals(list(2,2,2), Prime.factorization(8));
 	}
 	
+	@Test
+	public void testNine(){
+		assertEquals(list(3,3), Prime.factorization(9));
+	}
 	
 	public ArrayList<Integer> list(int...ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
