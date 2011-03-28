@@ -26,7 +26,10 @@ public class Prime {
 	 */
 	public static Object generate(int n) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
-		if (n==2) ret.add(1);
+		if (n>1) ret.add(1);
+		if (n>2) {
+			ret.add(2);
+		}
 		return ret;
 	}
 }
