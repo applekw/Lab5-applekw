@@ -86,6 +86,11 @@ public class Lab5Tests {
 		assertEquals(list(1,2,3), Prime.generate(5));
 	}
 	
+	@Test
+	public void testSixInSpanish(){
+		assertEquals(list(1,2,3,5), Prime.generate(6));
+	}
+	
 	public ArrayList<Integer> list(int...ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		
