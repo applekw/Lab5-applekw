@@ -10,12 +10,11 @@ public class Prime {
 
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 
-		while (n % 2 == 0) {
-			ret.add(2);
-			n/=2;
+		for (int candidate = 2; n > 1; candidate++) {
+			for (; n % candidate == 0; n /= candidate) {
+				ret.add(candidate);
+			}
 		}
-		if (n == 3)
-			ret.add(3);
 		return ret;
 	}
 }
