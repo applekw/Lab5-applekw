@@ -96,6 +96,11 @@ public class Lab5Tests {
 		assertEquals(list(1,2,3,5,7),Prime.generate(8));
 	}
 	
+	@Test
+	public void test20() {
+		assertEquals(list(1,2,3,5,7,11,13,17,19),Prime.generate(20));
+	}
+	
 	public ArrayList<Integer> list(int...ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		
