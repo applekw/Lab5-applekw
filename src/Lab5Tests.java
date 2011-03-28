@@ -33,6 +33,10 @@ public class Lab5Tests {
 		assertEquals(list(2, 2), Prime.factorization(4));
 	}
 	
+	@Test
+	public void testSix(){
+		assertEquals(list(2,3), Prime.factorization(6));
+	}
 	
 	
 	public ArrayList<Integer> list(int...ints){
