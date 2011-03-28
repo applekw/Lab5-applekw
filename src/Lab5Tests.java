@@ -62,13 +62,18 @@ public class Lab5Tests {
 	///tests for task 5
 	
 	@Test
-	public void testThatOneGeneratesAnEmptyList(){
+	public void testUno(){
 		assertEquals(new ArrayList<Integer>(), Prime.generate(1));
 	}
 	
 	@Test
 	public void testDos(){
 		assertEquals(list(1), Prime.generate(2));
+	}
+	
+	@Test
+	public void testTres(){
+		assertEquals(list(1,2), Prime.generate(3));
 	}
 	
 	public ArrayList<Integer> list(int...ints){
