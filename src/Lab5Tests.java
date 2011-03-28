@@ -38,6 +38,11 @@ public class Lab5Tests {
 		assertEquals(list(2,3), Prime.factorization(6));
 	}
 	
+	@Test
+	public void testEight(){
+		assertEquals(list(2,2,2), Prime.factorization(8));
+	}
+	
 	
 	public ArrayList<Integer> list(int...ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
