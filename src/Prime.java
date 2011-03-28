@@ -26,13 +26,20 @@ public class Prime {
 	 */
 	public static Object generate(int n) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
-		if (n>1) ret.add(1);
-		if (n>2) {
-			ret.add(2);
+		
+		ArrayList<Integer> check = new ArrayList<Integer>();
+		if (n>=2) {
+			ret.add(1);
 		}
-		if (n>3){
-			ret.add(3);
+	
+		for (int i = 1; i < n; i++){
+			check.add(i);
+			if (Prime.factorization(i).toString().equals(check.toString())){
+				ret.add(i);
+			}
+			check.clear();
 		}
+
 		return ret;
 	}
 }
