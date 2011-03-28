@@ -24,8 +24,8 @@ public class Prime {
 	 * @param i
 	 * @return
 	 */
-	public static Object generate(int i) {
-		// TODO Auto-generated method stub.
-		return null;
+	public static Object generate(int n) {
+		ArrayList<Integer> ret = new ArrayList<Integer>();
+		return ret;
 	}
 }
