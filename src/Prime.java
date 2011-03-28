@@ -17,4 +17,15 @@ public class Prime {
 		}
 		return ret;
 	}
+
+	/**
+	 * TODO Put here a description of what this method does.
+	 *
+	 * @param i
+	 * @return
+	 */
+	public static Object generate(int i) {
+		// TODO Auto-generated method stub.
+		return null;
+	}
 }

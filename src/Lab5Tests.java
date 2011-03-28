@@ -13,6 +13,10 @@ import org.junit.Test;
  */
 public class Lab5Tests {
 
+	
+	
+	///tests for task 4
+	
 	@Test
 	public void testOne(){
 		assertEquals(new ArrayList<Integer>(), Prime.factorization(1));
@@ -51,6 +55,15 @@ public class Lab5Tests {
 	@Test
 	public void testLarge(){
 		assertEquals(list(5,7,7,1327), Prime.factorization(325115));
+	}
+	
+	
+	
+	///tests for task 5
+	
+	@Test
+	public void testThatOneGeneratesAnEmptyList(){
+		assertEquals(new ArrayList<Integer>(), Prime.generate(1));
 	}
 	
 	public ArrayList<Integer> list(int...ints){
